@@ -24,6 +24,7 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKl-DQ-8BN">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                <color key="backgroundColor" red="0.65437495708465576" green="0.78196138143539429" blue="0.92761141061782837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>

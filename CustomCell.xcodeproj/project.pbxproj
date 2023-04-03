@@ -26,6 +26,10 @@
 		4182A08429DB322A003C9699 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4182A08229DB322A003C9699 /* TextFieldTableViewCell.xib */; };
 		4182A08729DB3356003C9699 /* StepperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182A08529DB3356003C9699 /* StepperTableViewCell.swift */; };
 		4182A08829DB3356003C9699 /* StepperTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4182A08629DB3356003C9699 /* StepperTableViewCell.xib */; };
+		4182A08B29DB3698003C9699 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182A08929DB3698003C9699 /* SwitchTableViewCell.swift */; };
+		4182A08C29DB3698003C9699 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4182A08A29DB3698003C9699 /* SwitchTableViewCell.xib */; };
+		4182A08F29DB3B30003C9699 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182A08D29DB3B30003C9699 /* LabelTableViewCell.swift */; };
+		4182A09029DB3B30003C9699 /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4182A08E29DB3B30003C9699 /* LabelTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		4182A08229DB322A003C9699 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		4182A08529DB3356003C9699 /* StepperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTableViewCell.swift; sourceTree = "<group>"; };
 		4182A08629DB3356003C9699 /* StepperTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepperTableViewCell.xib; sourceTree = "<group>"; };
+		4182A08929DB3698003C9699 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		4182A08A29DB3698003C9699 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		4182A08D29DB3B30003C9699 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		4182A08E29DB3B30003C9699 /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,10 @@
 				4182A08229DB322A003C9699 /* TextFieldTableViewCell.xib */,
 				4182A08529DB3356003C9699 /* StepperTableViewCell.swift */,
 				4182A08629DB3356003C9699 /* StepperTableViewCell.xib */,
+				4182A08929DB3698003C9699 /* SwitchTableViewCell.swift */,
+				4182A08A29DB3698003C9699 /* SwitchTableViewCell.xib */,
+				4182A08D29DB3B30003C9699 /* LabelTableViewCell.swift */,
+				4182A08E29DB3B30003C9699 /* LabelTableViewCell.xib */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -266,10 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4182A07C29DB27C4003C9699 /* ProgressTableViewCell.xib in Resources */,
+				4182A08C29DB3698003C9699 /* SwitchTableViewCell.xib in Resources */,
 				4182A08829DB3356003C9699 /* StepperTableViewCell.xib in Resources */,
 				4182A01429D4A0F6003C9699 /* LaunchScreen.storyboard in Resources */,
 				4182A03A29D4A37F003C9699 /* ImageTableViewCell.xib in Resources */,
 				4182A01129D4A0F6003C9699 /* Assets.xcassets in Resources */,
+				4182A09029DB3B30003C9699 /* LabelTableViewCell.xib in Resources */,
 				4182A00F29D4A0EF003C9699 /* Main.storyboard in Resources */,
 				4182A03E29D4A3DA003C9699 /* SegmentTableViewCell.xib in Resources */,
 				4182A08029DB2E90003C9699 /* SliderTableViewCell.xib in Resources */,
@@ -303,6 +317,8 @@
 				4182A08329DB322A003C9699 /* TextFieldTableViewCell.swift in Sources */,
 				4182A08729DB3356003C9699 /* StepperTableViewCell.swift in Sources */,
 				4182A07B29DB27C4003C9699 /* ProgressTableViewCell.swift in Sources */,
+				4182A08B29DB3698003C9699 /* SwitchTableViewCell.swift in Sources */,
+				4182A08F29DB3B30003C9699 /* LabelTableViewCell.swift in Sources */,
 				4182A00A29D4A0EF003C9699 /* AppDelegate.swift in Sources */,
 				4182A07F29DB2E90003C9699 /* SliderTableViewCell.swift in Sources */,
 				4182A03D29D4A3DA003C9699 /* SegmentTableViewCell.swift in Sources */,

@@ -12,22 +12,19 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ProgressTableViewCell" customModule="CustomCell" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LabelTableViewCell" customModule="CustomCell" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="cZb-yA-AXH">
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdU-G2-odB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                         <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="i2L-JO-lY2">
-                                <rect key="frame" x="0.0" y="21" width="263" height="2"/>
-                            </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyc-AF-5tj">
-                                <rect key="frame" x="278" y="11.5" width="42" height="20.5"/>
-                                <color key="backgroundColor" red="0.65437495708465576" green="0.78196138143539429" blue="0.92761141061782837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAD 415" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkP-nV-1I5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                <color key="backgroundColor" red="0.90850120779999999" green="0.59263855219999995" blue="0.44515860080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,16 +33,15 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="cZb-yA-AXH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5KS-Dx-96e"/>
-                    <constraint firstAttribute="trailing" secondItem="cZb-yA-AXH" secondAttribute="trailing" id="9rm-9P-Htf"/>
-                    <constraint firstAttribute="bottom" secondItem="cZb-yA-AXH" secondAttribute="bottom" id="CZ7-VT-mFp"/>
-                    <constraint firstItem="cZb-yA-AXH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gTm-2L-lEh"/>
+                    <constraint firstAttribute="trailing" secondItem="AdU-G2-odB" secondAttribute="trailing" id="Rzf-mh-nIP"/>
+                    <constraint firstItem="AdU-G2-odB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="drh-gC-eYf"/>
+                    <constraint firstItem="AdU-G2-odB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fdz-BL-aHM"/>
+                    <constraint firstAttribute="bottom" secondItem="AdU-G2-odB" secondAttribute="bottom" id="pPn-s5-daB"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="ProgressValue" destination="Hyc-AF-5tj" id="L5t-3y-IWI"/>
-                <outlet property="myProgress" destination="i2L-JO-lY2" id="75y-st-Xbt"/>
+                <outlet property="label" destination="PkP-nV-1I5" id="cid-JB-B3q"/>
             </connections>
         </tableViewCell>
     </objects>

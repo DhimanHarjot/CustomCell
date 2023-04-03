@@ -18,17 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assignment 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSa-vc-eed">
+                                <rect key="frame" x="20" y="30" width="335" height="21"/>
+                                <color key="backgroundColor" red="0.92030984159999996" green="0.83069425819999998" blue="0.57783657310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harjot Singh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7g9-sG-vxL">
+                                <rect key="frame" x="20" y="61" width="335" height="21"/>
+                                <color key="backgroundColor" red="0.92030984159999996" green="0.83069425819999998" blue="0.57783657310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aTp-bS-v3f">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="20" y="160" width="335" height="507"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A00152129" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTD-Sd-jK5">
+                                <rect key="frame" x="20" y="92" width="335" height="21"/>
+                                <color key="backgroundColor" red="0.92030984159999996" green="0.83069425819999998" blue="0.57783657310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aTp-bS-v3f" secondAttribute="bottom" id="V21-F0-22l"/>
-                            <constraint firstItem="aTp-bS-v3f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Z1Q-ui-aAx"/>
-                            <constraint firstItem="aTp-bS-v3f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rXW-q3-dPq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aTp-bS-v3f" secondAttribute="trailing" id="zfY-cN-P2e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7g9-sG-vxL" secondAttribute="trailing" constant="20" id="0tu-Vi-0ss"/>
+                            <constraint firstItem="BTD-Sd-jK5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AOe-WI-PqR"/>
+                            <constraint firstItem="aTp-bS-v3f" firstAttribute="top" secondItem="BTD-Sd-jK5" secondAttribute="bottom" constant="47" id="CFM-hO-YLe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jSa-vc-eed" secondAttribute="trailing" constant="20" id="G4V-cP-RHR"/>
+                            <constraint firstItem="jSa-vc-eed" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GcB-Od-ZC4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aTp-bS-v3f" secondAttribute="trailing" constant="20" id="LX3-9Z-u4F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aTp-bS-v3f" secondAttribute="bottom" id="T8J-fl-MW2"/>
+                            <constraint firstItem="jSa-vc-eed" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="U7G-K7-nhS"/>
+                            <constraint firstItem="7g9-sG-vxL" firstAttribute="top" secondItem="jSa-vc-eed" secondAttribute="bottom" constant="10" id="UoG-gU-O7u"/>
+                            <constraint firstItem="7g9-sG-vxL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wug-w4-ul6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BTD-Sd-jK5" secondAttribute="trailing" constant="20" id="jcq-cv-bmx"/>
+                            <constraint firstItem="BTD-Sd-jK5" firstAttribute="top" secondItem="7g9-sG-vxL" secondAttribute="bottom" constant="10" id="rvq-SM-TpF"/>
+                            <constraint firstItem="aTp-bS-v3f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rvy-ML-CLK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>

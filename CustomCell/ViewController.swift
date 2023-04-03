@@ -12,13 +12,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myTable: UITableView!
     
-    var cellIdentifiers: [String] = ["imageCell","segmentCell","progressCell","sliderCell", "stepperCell","textfieldCell"]
+    var cellIdentifiers: [String] = ["labelCell","imageCell","segmentCell","progressCell","sliderCell", "stepperCell","switchCell","textfieldCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         myTable.delegate = self
         myTable.dataSource = self
+        
+        let labelCell = UINib(nibName: "LabelTableViewCell", bundle: nil)
+        myTable.register(labelCell, forCellReuseIdentifier: "labelCell")
         
         let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
         myTable.register(imageCell, forCellReuseIdentifier: "imageCell")
@@ -34,6 +37,9 @@ class ViewController: UIViewController {
         
         let stepperCell = UINib(nibName: "StepperTableViewCell", bundle: nil)
         myTable.register(stepperCell, forCellReuseIdentifier: "stepperCell")
+        
+        let switchCell = UINib(nibName: "SwitchTableViewCell", bundle: nil)
+        myTable.register(switchCell, forCellReuseIdentifier: "switchCell")
         
         let textfieldCell = UINib(nibName: "TextFieldTableViewCell", bundle: nil)
         myTable.register(textfieldCell, forCellReuseIdentifier: "textfieldCell")
@@ -59,7 +65,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 70
     }
 }
 
